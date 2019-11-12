@@ -48,4 +48,7 @@ class FizzBuzzTest {
 		assertTrue(fizzbuzz.getResult(0).equals("FizzBuzz"));
 	}
 	
+	void shouldReturn0WhenEmpty() {
+		assertTrue(fizzbuzz.getResultexo2("") == 0);
+	}
 }
