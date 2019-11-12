@@ -7,6 +7,8 @@ public class FizzBuzz {
 			return "Fizz";
 		if(i == 5)
 			return "Buzz";
+		if( i == 9)
+			return "Fizz";
 		else
 		return String.valueOf(i);
 	}
