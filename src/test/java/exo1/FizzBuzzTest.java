@@ -33,4 +33,9 @@ class FizzBuzzTest {
 		assertTrue(fizzbuzz.getResult(9).equals("Fizz"));
 	}
 	
+	@Test
+	void doitRetourner1AvecEntree10() {
+		assertTrue(fizzbuzz.getResult(10).equals("Buzz"));
+	}
+	
 }
