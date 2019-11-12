@@ -51,4 +51,11 @@ class FizzBuzzTest {
 	void shouldReturn0WhenEmpty() {
 		assertTrue(fizzbuzz.getResultexo2("") == 0);
 	}
+	void shouldReturn1WhenI() {
+		assertTrue(fizzbuzz.getResultexo2("I") == 1);
+	}
+	void shouldReturn5WhenV() {
+		assertTrue(fizzbuzz.getResultexo2("V") == 5);
+	}
+	
 }
