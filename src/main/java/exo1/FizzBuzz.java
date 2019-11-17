@@ -14,12 +14,12 @@ public class FizzBuzz {
 		return String.valueOf(i);
 	}
 	
-	public int getResultexo2(String romain) {
-			if( romain.isEmpty() )
+	public int getResultexo2(String Romain) {
+			if( Romain.isEmpty() )
 				return 0;
-			if(romain.equals("I") )
+			if( Romain.equals("I") )
 				return 1;
-			if(romain.equals("V") )
+			if(Romain.equals("V") )
 				return 5;
 		return 0;
 	}
